@@ -1,4 +1,4 @@
-# Hack the North 2021 Backend 
+# Hack the North 2025 Backend Challenge
 
 Overview:
 1. Database
