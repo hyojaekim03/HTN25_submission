@@ -7,3 +7,4 @@ Overview:
 4. Final thoughts
 
 ## Database
+- Schema
