@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:18
 RUN mkdir /db
 RUN mkdir -p /src/app
 WORKDIR /src/app
