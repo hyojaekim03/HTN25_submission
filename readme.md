@@ -15,7 +15,8 @@ This document outlines the key components of the backend solution, including the
 I will be using SQLite for a simple set up and implementation.
 
 ### **ERD Schema**
-![ERD Schema](https://github.com/user-attachments/assets/733c593c-63ee-499a-8c11-360b8a0727d4)
+![ERD Schema](<img src="https://github.com/user-attachments/assets/733c593c-63ee-499a-8c11-360b8a0727d4" alt="ERD Schema" width="400" />
+)
 
 ---
 
