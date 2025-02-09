@@ -9,6 +9,9 @@ This document outlines the key components of the backend solution, including the
 4. **Final Thoughts**
 
 ---
+## **JSON**
+Upon reviewing the JSON data, I noticed that there were a few badge codes which were empty strings. I am assuming that this happens because multiple people who signed up didn't check-in (they didn't show up). This might interfere with the definition of badge codes being "unique" and therefore we must treat this accordingly. 
+
 
 ## **Database**
 
