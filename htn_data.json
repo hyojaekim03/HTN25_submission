@@ -1,0 +1,2196 @@
+[
+    {
+        "name": "James Graves",
+        "email": "hollypace@example.org",
+        "phone": "+1-758-654-8939x00098",
+        "badge_code": "give-seven-food-trade",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T03:00:27.836055"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T04:07:35.311375"
+            }
+        ]
+    },
+    {
+        "name": "James Graves",
+        "email": "jessica25@example.org",
+        "phone": "(820)513-0977",
+        "badge_code": "to-send-here-north",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T13:14:27.489288"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T15:43:56.857778"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T20:05:25.653658"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T00:49:05.728513"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T22:23:35.522042"
+            }
+        ]
+    },
+    {
+        "name": "Angela Dennis",
+        "email": "lkelly@example.com",
+        "phone": "001-281-377-8266x248",
+        "badge_code": "town-both-century-little",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T00:49:28.635064"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T20:08:13.051370"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T09:09:40.235051"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T18:51:46.147884"
+            }
+        ]
+    },
+    {
+        "name": "Amanda Hicks",
+        "email": "milescynthia@example.net",
+        "phone": "575-273-5668",
+        "badge_code": "move-public-leader-understand",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T01:30:22.404264"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T19:19:37.208752"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T21:24:47.978084"
+            }
+        ]
+    },
+    {
+        "name": "Amanda Hicks",
+        "email": "fward@example.org",
+        "phone": "001-624-335-0468x678",
+        "badge_code": "laugh-resource-apply-staff",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T15:07:23.944351"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T11:09:59.389324"
+            }
+        ]
+    },
+    {
+        "name": "Willie Miller",
+        "email": "wendy46@example.net",
+        "phone": "948-613-2438x4061",
+        "badge_code": "oil-any-quickly-attention",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T14:43:06.964990"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T20:23:57.485480"
+            }
+        ]
+    },
+    {
+        "name": "Willie Miller",
+        "email": "lindsayfarrell@example.net",
+        "phone": "533.685.4098x184",
+        "badge_code": "",
+        "scans": []
+    },
+    {
+        "name": "Willie Miller",
+        "email": "christinamcdonald@example.org",
+        "phone": "726.931.6048x8784",
+        "badge_code": "here-Mr-business-interest",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T14:28:54.074687"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T00:36:59.616988"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T00:18:33.822016"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T05:17:15.117059"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T10:35:47.293988"
+            }
+        ]
+    },
+    {
+        "name": "Angela Dennis",
+        "email": "alexanderchristopher@example.com",
+        "phone": "001-274-492-0303x52496",
+        "badge_code": "assume-issue-hand-others",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T09:44:43.848351"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T07:31:56.135603"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T02:48:49.839034"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T14:34:58.377148"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T21:14:07.483594"
+            }
+        ]
+    },
+    {
+        "name": "James Graves",
+        "email": "luke94@example.org",
+        "phone": "+1-431-685-8628x17312",
+        "badge_code": "blood-happy-partner-less",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T00:55:50.313798"
+            }
+        ]
+    },
+    {
+        "name": "Michelle Myers",
+        "email": "matthewprice@example.org",
+        "phone": "+1-689-767-9017x684",
+        "badge_code": "ability-as-somebody-hear",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T00:00:51.824518"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T17:46:02.439200"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T13:32:58.261390"
+            }
+        ]
+    },
+    {
+        "name": "Todd Buck",
+        "email": "kelsey62@example.org",
+        "phone": "+1-996-529-8306x58298",
+        "badge_code": "song-run-get-federal",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T01:38:59.822228"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T14:57:33.249221"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T21:42:28.762152"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T03:28:31.693799"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T02:38:25.436319"
+            }
+        ]
+    },
+    {
+        "name": "Jennifer Miller",
+        "email": "clarkemily@example.com",
+        "phone": "374.580.9805x493",
+        "badge_code": "reveal-know-Democrat-capital",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T03:05:47.053113"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T05:21:48.042301"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T12:38:35.959851"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T14:09:37.319579"
+            }
+        ]
+    },
+    {
+        "name": "Maria Cabrera",
+        "email": "obrienstacey@example.org",
+        "phone": "+1-419-589-8440x498",
+        "badge_code": "each-science-Democrat-term",
+        "scans": [
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T08:16:23.060480"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T12:25:53.892743"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T05:19:15.176659"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T10:37:59.786171"
+            }
+        ]
+    },
+    {
+        "name": "Christina Travis",
+        "email": "matthewbecker@example.com",
+        "phone": "315-705-0486x88892",
+        "badge_code": "listen-say-manage-particular",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T10:30:12.954393"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T13:19:13.261973"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T06:19:36.666804"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T06:50:34.625991"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T18:27:47.515951"
+            }
+        ]
+    },
+    {
+        "name": "Larry Hall",
+        "email": "blakematthews@example.org",
+        "phone": "248.435.7722",
+        "badge_code": "decade-ball-skill-scene",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T07:37:55.223046"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T01:11:13.861696"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T21:47:50.015144"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T10:12:54.161800"
+            }
+        ]
+    },
+    {
+        "name": "John Miller",
+        "email": "caseybrian@example.net",
+        "phone": "+1-379-954-4478x72564",
+        "badge_code": "evidence-rule-experience-create",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T09:19:17.014589"
+            }
+        ]
+    },
+    {
+        "name": "Karen Peterson",
+        "email": "aliceortega@example.org",
+        "phone": "+1-759-661-4560x7016",
+        "badge_code": "standard-fund-enter-add",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T22:36:15.669073"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T21:28:02.156658"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T07:47:22.642384"
+            }
+        ]
+    },
+    {
+        "name": "Danielle Garcia",
+        "email": "jmontoya@example.org",
+        "phone": "873-997-5046x58204",
+        "badge_code": "side-billion-system-matter",
+        "scans": [
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T20:53:06.803153"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T00:16:49.459252"
+            }
+        ]
+    },
+    {
+        "name": "Jordan James",
+        "email": "brettclayton@example.com",
+        "phone": "001-270-808-7991x600",
+        "badge_code": "pull-stop-name-player",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T07:18:55.494209"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T07:40:29.048999"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T07:32:44.336632"
+            }
+        ]
+    },
+    {
+        "name": "David Lawson",
+        "email": "henryjohnson@example.org",
+        "phone": "738-981-7448",
+        "badge_code": "world-recent-we-would",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T04:27:45.540302"
+            }
+        ]
+    },
+    {
+        "name": "Barbara Thompson",
+        "email": "stevenbenson@example.com",
+        "phone": "739-902-7517x34607",
+        "badge_code": "teacher-eight-before-step",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T06:53:42.625456"
+            }
+        ]
+    },
+    {
+        "name": "Pamela Lynn",
+        "email": "jennifergarcia@example.com",
+        "phone": "001-942-474-5831x8776",
+        "badge_code": "pattern-country-couple-last",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T21:11:30.435998"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T12:21:16.862456"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T21:05:36.201069"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T01:53:09.098866"
+            }
+        ]
+    },
+    {
+        "name": "Sharon Anderson DDS",
+        "email": "jnelson@example.net",
+        "phone": "+1-495-714-9338",
+        "badge_code": "three-push-can-eight",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T13:04:43.292751"
+            }
+        ]
+    },
+    {
+        "name": "Robin Tapia",
+        "email": "yjennings@example.org",
+        "phone": "752-520-9432",
+        "badge_code": "very-agree-free-own",
+        "scans": [
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T00:36:05.693545"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T17:48:59.048593"
+            }
+        ]
+    },
+    {
+        "name": "Gary Henderson",
+        "email": "wolfenicholas@example.org",
+        "phone": "(967)631-0957",
+        "badge_code": "huge-site-trouble-degree",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T06:38:52.147839"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T22:13:21.940187"
+            }
+        ]
+    },
+    {
+        "name": "Lindsey Berg",
+        "email": "zachary19@example.com",
+        "phone": "736.942.9151",
+        "badge_code": "politics-year-important-instead",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T14:51:37.174068"
+            }
+        ]
+    },
+    {
+        "name": "Andrea Rosales",
+        "email": "philip81@example.com",
+        "phone": "001-760-877-6235",
+        "badge_code": "miss-indeed-executive-smile",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T23:22:24.444582"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T17:00:30.066869"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T07:17:49.885328"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T02:59:53.368226"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T22:52:16.696533"
+            }
+        ]
+    },
+    {
+        "name": "Kim Collins",
+        "email": "kbryant@example.org",
+        "phone": "7359831253",
+        "badge_code": "rate-put-seat-strong",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T14:39:19.441871"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T07:16:53.405694"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T22:03:47.738204"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T05:53:39.202085"
+            }
+        ]
+    },
+    {
+        "name": "Kathleen Robinson",
+        "email": "phillipszachary@example.org",
+        "phone": "8058671907",
+        "badge_code": "table-seek-between-heart",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T09:03:26.268971"
+            }
+        ]
+    },
+    {
+        "name": "Elizabeth Moyer",
+        "email": "qmartinez@example.org",
+        "phone": "639.373.7499",
+        "badge_code": "us-star-whatever-scientist",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T15:49:08.359980"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T09:06:05.697460"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T08:35:07.222555"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T20:26:44.723821"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T04:02:53.763293"
+            }
+        ]
+    },
+    {
+        "name": "Douglas Evans",
+        "email": "amandashah@example.org",
+        "phone": "(908)700-8042",
+        "badge_code": "carry-condition-send-product",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T22:01:26.078784"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T09:00:02.365615"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T14:54:20.418600"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T13:20:31.331146"
+            }
+        ]
+    },
+    {
+        "name": "Meghan Davis",
+        "email": "qconrad@example.net",
+        "phone": "+1-504-574-0802x900",
+        "badge_code": "science-me-as-crime",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T03:02:34.760048"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T13:21:52.975043"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T09:13:07.581466"
+            }
+        ]
+    },
+    {
+        "name": "Jeffery Hernandez",
+        "email": "nrubio@example.org",
+        "phone": "633.795.9785x169",
+        "badge_code": "serve-amount-political-test",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T21:46:42.937984"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T18:41:51.152758"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T14:35:06.370847"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T17:02:25.184370"
+            }
+        ]
+    },
+    {
+        "name": "Sharon Miller",
+        "email": "andrew91@example.org",
+        "phone": "001-813-417-8121",
+        "badge_code": "grow-crime-each-public",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T00:23:23.683426"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T15:15:39.113791"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T22:22:13.186701"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T02:26:58.350365"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T16:53:34.413542"
+            }
+        ]
+    },
+    {
+        "name": "Jill Dudley",
+        "email": "stephanie67@example.net",
+        "phone": "6904684721",
+        "badge_code": "dream-several-high-and",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T14:02:37.013916"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T03:54:29.948877"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T07:36:13.827467"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T01:25:45.140664"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T00:42:02.647374"
+            }
+        ]
+    },
+    {
+        "name": "Angela Hickman",
+        "email": "erik63@example.com",
+        "phone": "(911)217-4309",
+        "badge_code": "something-mission-away-wear",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T09:00:11.829688"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T00:47:14.099938"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T07:51:47.316898"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T17:24:57.212239"
+            }
+        ]
+    },
+    {
+        "name": "Christine Green",
+        "email": "madams@example.com",
+        "phone": "8196475957",
+        "badge_code": "one-house-business-bill",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T16:14:01.933989"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T04:43:13.512350"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T16:26:53.838249"
+            }
+        ]
+    },
+    {
+        "name": "Kimberly Smith",
+        "email": "kyleolson@example.net",
+        "phone": "(257)865-9196",
+        "badge_code": "girl-service-could-he",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T20:33:27.824852"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T04:29:32.929003"
+            }
+        ]
+    },
+    {
+        "name": "Sabrina Elliott",
+        "email": "freynolds@example.com",
+        "phone": "4207319339",
+        "badge_code": "",
+        "scans": []
+    },
+    {
+        "name": "Daniel Huerta",
+        "email": "nhuber@example.net",
+        "phone": "8039734191",
+        "badge_code": "a-new-well-far",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T13:44:35.911981"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T19:31:34.519852"
+            }
+        ]
+    },
+    {
+        "name": "Ricky Parker",
+        "email": "william31@example.org",
+        "phone": "945-987-1117",
+        "badge_code": "defense-fly-hot-see",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T11:35:53.129560"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T10:41:55.616640"
+            }
+        ]
+    },
+    {
+        "name": "Debra Conrad",
+        "email": "peterhuynh@example.com",
+        "phone": "001-363-811-1778x206",
+        "badge_code": "example-make-record-western",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T20:15:33.669339"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T19:50:56.627795"
+            }
+        ]
+    },
+    {
+        "name": "Matthew Beck",
+        "email": "michaelpacheco@example.org",
+        "phone": "9349827216",
+        "badge_code": "figure-expect-continue-myself",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T03:22:11.172400"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T02:27:18.265282"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T21:36:50.370231"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T05:18:08.150144"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T16:24:48.914365"
+            }
+        ]
+    },
+    {
+        "name": "Lisa Kane",
+        "email": "andrew42@example.net",
+        "phone": "7864258060",
+        "badge_code": "I-marriage-happy-though",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T11:46:00.283534"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T22:54:21.086082"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T00:36:23.941785"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T21:52:00.753468"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T18:26:54.035054"
+            }
+        ]
+    },
+    {
+        "name": "Zoe Hodge",
+        "email": "floresadam@example.net",
+        "phone": "916.436.3953x67138",
+        "badge_code": "suddenly-person-school-difference",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T09:29:10.329447"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T08:23:46.902511"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T03:59:26.904845"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T17:43:02.803997"
+            }
+        ]
+    },
+    {
+        "name": "Elaine Boyd",
+        "email": "michaelmiller@example.net",
+        "phone": "271-607-9965",
+        "badge_code": "court-choice-black-western",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T16:32:21.062133"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T09:24:32.497681"
+            }
+        ]
+    },
+    {
+        "name": "Brandy Moore",
+        "email": "lindawatson@example.org",
+        "phone": "949.982.1967x129",
+        "badge_code": "",
+        "scans": []
+    },
+    {
+        "name": "Robin Griffin",
+        "email": "desiree83@example.com",
+        "phone": "289-669-4763",
+        "badge_code": "ability-pull-wide-arrive",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T12:51:42.734101"
+            }
+        ]
+    },
+    {
+        "name": "Janet Hughes",
+        "email": "fordraymond@example.net",
+        "phone": "+1-889-544-6088x068",
+        "badge_code": "traditional-body-treat-imagine",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T22:25:16.714116"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T07:40:12.877048"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T19:59:06.929954"
+            }
+        ]
+    },
+    {
+        "name": "Michael Brown",
+        "email": "ramirezbrian@example.org",
+        "phone": "2772980322",
+        "badge_code": "well-future-eight-stand",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T17:30:22.373524"
+            }
+        ]
+    },
+    {
+        "name": "Amber Graham",
+        "email": "hmendoza@example.net",
+        "phone": "+1-505-743-6013x39787",
+        "badge_code": "check-either-next-join",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T18:07:54.932333"
+            }
+        ]
+    },
+    {
+        "name": "Sarah Cobb",
+        "email": "awang@example.org",
+        "phone": "267.897.3105x963",
+        "badge_code": "day-plant-mention-prevent",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T11:03:36.624186"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T03:55:55.962910"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T21:38:22.142745"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T02:21:51.736122"
+            }
+        ]
+    },
+    {
+        "name": "Kimberly Morse",
+        "email": "matthewharris@example.com",
+        "phone": "+1-380-708-0933x72622",
+        "badge_code": "send-tough-represent-deep",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T14:56:22.461498"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T03:41:30.667917"
+            }
+        ]
+    },
+    {
+        "name": "Tanya Williams",
+        "email": "kyle41@example.net",
+        "phone": "(354)630-8244x40269",
+        "badge_code": "get-think-small-set",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T09:13:49.468836"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T22:35:57.395465"
+            }
+        ]
+    },
+    {
+        "name": "Robert Barnes",
+        "email": "simpsonsara@example.net",
+        "phone": "001-419-629-6311x255",
+        "badge_code": "tough-TV-both-increase",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T14:33:18.621209"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T19:38:25.849785"
+            }
+        ]
+    },
+    {
+        "name": "Eileen Holmes",
+        "email": "pameladavis@example.org",
+        "phone": "378.957.8763x1632",
+        "badge_code": "white-public-city-life",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T03:34:17.490463"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T10:58:57.505024"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T19:33:09.591266"
+            }
+        ]
+    },
+    {
+        "name": "Angel Mahoney",
+        "email": "frice@example.org",
+        "phone": "(522)833-2542x74382",
+        "badge_code": "western-open-management-trial",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T01:23:19.334712"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T14:30:38.785282"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T18:50:47.891589"
+            }
+        ]
+    },
+    {
+        "name": "James Morales",
+        "email": "pearsonmary@example.com",
+        "phone": "321-254-1562x558",
+        "badge_code": "return-news-finish-seven",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T20:26:39.094597"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T15:24:17.650055"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T03:07:45.368573"
+            }
+        ]
+    },
+    {
+        "name": "Donna Smith",
+        "email": "jeffreysullivan@example.org",
+        "phone": "(889)539-0853x8194",
+        "badge_code": "meeting-yeah-maintain-benefit",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T15:44:35.916202"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T12:44:53.488541"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T09:53:12.699914"
+            }
+        ]
+    },
+    {
+        "name": "Eric Cochran",
+        "email": "madisonflores@example.net",
+        "phone": "440-899-6806x877",
+        "badge_code": "serve-inside-southern-institution",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T22:16:28.966014"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T22:20:39.104058"
+            }
+        ]
+    },
+    {
+        "name": "Jeff Lindsey",
+        "email": "thompsoneddie@example.com",
+        "phone": "862.600.4936x6186",
+        "badge_code": "difference-make-off-edge",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T10:19:15.758525"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T05:18:24.064485"
+            }
+        ]
+    },
+    {
+        "name": "Jeffrey Holder",
+        "email": "laura41@example.com",
+        "phone": "408-229-4764",
+        "badge_code": "",
+        "scans": []
+    },
+    {
+        "name": "Elizabeth Moyer",
+        "email": "andrewspaula@example.org",
+        "phone": "6974264362",
+        "badge_code": "economic-site-away-officer",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T16:30:59.614773"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T00:00:34.533154"
+            }
+        ]
+    },
+    {
+        "name": "Travis Leonard",
+        "email": "johnbanks@example.net",
+        "phone": "751.976.1865",
+        "badge_code": "end-some-thank-significant",
+        "scans": [
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T02:35:43.374540"
+            }
+        ]
+    },
+    {
+        "name": "Madeline Mills",
+        "email": "donna75@example.org",
+        "phone": "969.929.2562",
+        "badge_code": "you-rise-various-station",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T01:58:35.954711"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T09:09:41.922975"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T01:21:47.660027"
+            }
+        ]
+    },
+    {
+        "name": "Jo Gonzalez",
+        "email": "pettydavid@example.com",
+        "phone": "001-875-526-1654x97935",
+        "badge_code": "responsibility-tax-far-large",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T20:40:29.449698"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T20:55:35.681867"
+            }
+        ]
+    },
+    {
+        "name": "Jared Bradley",
+        "email": "yatesmatthew@example.net",
+        "phone": "273.788.0350x66119",
+        "badge_code": "fine-ready-late-southern",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T15:54:42.019762"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T04:54:25.543187"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T01:03:21.418635"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T18:05:01.624901"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T11:09:45.716949"
+            }
+        ]
+    },
+    {
+        "name": "Raymond Pierce",
+        "email": "michaelharris@example.org",
+        "phone": "001-271-501-2212x02964",
+        "badge_code": "whom-citizen-five-keep",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T20:14:42.057083"
+            }
+        ]
+    },
+    {
+        "name": "Timothy Strickland",
+        "email": "kimberlyflowers@example.net",
+        "phone": "750-572-6409",
+        "badge_code": "already-customer-night-yes",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T19:39:13.182356"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T19:51:00.931018"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T10:14:20.086965"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T16:25:53.458757"
+            }
+        ]
+    },
+    {
+        "name": "Brandon Bautista",
+        "email": "mccormickkenneth@example.org",
+        "phone": "+1-651-802-8013",
+        "badge_code": "every-quality-use-always",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T21:38:37.448961"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T06:08:14.765752"
+            }
+        ]
+    },
+    {
+        "name": "Rodney Green",
+        "email": "shannon58@example.org",
+        "phone": "001-330-510-4019x71636",
+        "badge_code": "plan-make-team-wear",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T22:48:44.305054"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T16:16:08.530506"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T06:26:05.771813"
+            }
+        ]
+    },
+    {
+        "name": "Patrick Shields",
+        "email": "pgolden@example.net",
+        "phone": "849-488-5264x094",
+        "badge_code": "really-watch-which-everyone",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T00:57:56.265931"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T14:01:04.539299"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T02:45:18.013042"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T13:32:52.225518"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T12:08:23.975705"
+            }
+        ]
+    },
+    {
+        "name": "Mary Coleman",
+        "email": "patrickbrady@example.net",
+        "phone": "897.419.7238",
+        "badge_code": "doctor-present-specific-point",
+        "scans": [
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T23:43:35.638444"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T20:35:16.389413"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T09:11:01.102879"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T09:55:17.700595"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T04:13:17.144139"
+            }
+        ]
+    },
+    {
+        "name": "Emily Torres",
+        "email": "ericksonethan@example.net",
+        "phone": "251-738-6768x7274",
+        "badge_code": "yourself-voice-dark-rule",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T14:41:44.560715"
+            }
+        ]
+    },
+    {
+        "name": "David Norris",
+        "email": "danielle86@example.com",
+        "phone": "467-711-8476",
+        "badge_code": "better-single-operation-tough",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T14:43:39.057258"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T22:55:22.392459"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T01:58:19.528197"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T22:54:23.148437"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T07:10:32.122169"
+            }
+        ]
+    },
+    {
+        "name": "Juan Obrien",
+        "email": "warrennichole@example.net",
+        "phone": "(403)666-8470",
+        "badge_code": "involve-magazine-team-describe",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T06:44:06.830790"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T17:15:44.518401"
+            }
+        ]
+    },
+    {
+        "name": "Paul Ponce",
+        "email": "troy14@example.net",
+        "phone": "5443912014",
+        "badge_code": "break-church-leader-keep",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T13:03:32.148808"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T23:48:06.932349"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T18:16:04.968276"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T02:26:01.231067"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T11:26:54.336373"
+            }
+        ]
+    },
+    {
+        "name": "Kimberly Duffy",
+        "email": "qcervantes@example.org",
+        "phone": "+1-482-664-7675x5827",
+        "badge_code": "executive-down-defense-data",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T15:27:19.929301"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T15:17:26.670385"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T04:32:41.765902"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T11:21:36.062718"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T16:11:35.911747"
+            }
+        ]
+    },
+    {
+        "name": "Christine Martin",
+        "email": "scottwhitaker@example.org",
+        "phone": "726.861.3636",
+        "badge_code": "or-participant-matter-focus",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T15:01:01.922195"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T18:42:28.321947"
+            }
+        ]
+    },
+    {
+        "name": "Terry Newman",
+        "email": "courtneylloyd@example.org",
+        "phone": "992-274-6898",
+        "badge_code": "better-institution-loss-simple",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T11:48:23.761385"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T13:26:30.905827"
+            }
+        ]
+    },
+    {
+        "name": "David Miller",
+        "email": "garciawesley@example.com",
+        "phone": "320-773-6641x3866",
+        "badge_code": "network-series-role-safe",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T07:01:20.845500"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T15:46:13.084195"
+            }
+        ]
+    },
+    {
+        "name": "Frank Kerr",
+        "email": "amartinez@example.net",
+        "phone": "(240)237-1102x22486",
+        "badge_code": "page-billion-from-leave",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T19:49:54.069216"
+            }
+        ]
+    },
+    {
+        "name": "Roy Larson",
+        "email": "bshaw@example.net",
+        "phone": "557.471.4006x55136",
+        "badge_code": "style-case-reason-without",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T12:05:41.536134"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T03:09:53.155779"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T13:40:28.915647"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T00:08:18.197249"
+            }
+        ]
+    },
+    {
+        "name": "Janet Scott",
+        "email": "tony92@example.com",
+        "phone": "(931)685-4046",
+        "badge_code": "edge-hand-have-culture",
+        "scans": [
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T22:08:03.098112"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T12:48:52.951596"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T07:51:47.750873"
+            }
+        ]
+    },
+    {
+        "name": "Patricia Maddox",
+        "email": "georgewilson@example.net",
+        "phone": "686-242-5886x67310",
+        "badge_code": "",
+        "scans": []
+    },
+    {
+        "name": "Robert Gordon",
+        "email": "brookerodriguez@example.com",
+        "phone": "001-399-613-9331x012",
+        "badge_code": "different-treat-chance-near",
+        "scans": [
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T10:08:49.696800"
+            }
+        ]
+    },
+    {
+        "name": "Russell Morrow",
+        "email": "cerickson@example.org",
+        "phone": "001-297-580-3494x44380",
+        "badge_code": "laugh-be-board-cell",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T04:46:22.392632"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T08:56:18.704960"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T13:09:45.016372"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T21:33:53.779141"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T22:02:34.029475"
+            }
+        ]
+    },
+    {
+        "name": "Austin Adams",
+        "email": "frice@example.net",
+        "phone": "779-753-6103",
+        "badge_code": "the-hand-race-traditional",
+        "scans": [
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T08:31:18.119608"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T23:37:19.461073"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T01:33:14.396967"
+            }
+        ]
+    },
+    {
+        "name": "Aaron Stevens",
+        "email": "davidcollier@example.net",
+        "phone": "001-657-625-9414x00281",
+        "badge_code": "",
+        "scans": []
+    },
+    {
+        "name": "Taylor Kelley",
+        "email": "melissarodriguez@example.com",
+        "phone": "+1-489-817-8152x9982",
+        "badge_code": "line-tell-attention-and",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T05:22:12.617504"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T07:07:22.755845"
+            }
+        ]
+    },
+    {
+        "name": "Becky Murray",
+        "email": "barry31@example.org",
+        "phone": "001-286-846-8570x5779",
+        "badge_code": "film-report-sense-second",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T07:01:20.819435"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T10:02:36.369201"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T05:15:28.846379"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T12:13:27.953633"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T14:07:50.721430"
+            }
+        ]
+    },
+    {
+        "name": "Samuel Torres",
+        "email": "moorejeffrey@example.com",
+        "phone": "(293)844-5538",
+        "badge_code": "property-treatment-not-really",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T15:21:20.034961"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T15:49:09.583272"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-17T03:36:38.783158"
+            }
+        ]
+    },
+    {
+        "name": "Stephanie Mitchell",
+        "email": "barnescrystal@example.com",
+        "phone": "406.421.9832x44478",
+        "badge_code": "itself-finally-mean-owner",
+        "scans": [
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T20:31:07.972916"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T08:54:10.622926"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-19T01:55:09.672284"
+            }
+        ]
+    },
+    {
+        "name": "Alan Johnson",
+        "email": "nancy02@example.com",
+        "phone": "(267)834-3238",
+        "badge_code": "soon-hundred-rise-program",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T03:47:43.124708"
+            },
+            {
+                "activity_name": "closing_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T18:17:46.276262"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T12:27:53.080667"
+            }
+        ]
+    },
+    {
+        "name": "John Tucker",
+        "email": "lopezroger@example.com",
+        "phone": "435.942.5545x933",
+        "badge_code": "set-machine-despite-relate",
+        "scans": [
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T13:41:34.341503"
+            },
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T11:04:28.682136"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T17:22:09.867931"
+            },
+            {
+                "activity_name": "team_formation",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T18:16:27.501915"
+            }
+        ]
+    },
+    {
+        "name": "Frederick Stephens",
+        "email": "hoffmanjustin@example.org",
+        "phone": "898-810-0133x062",
+        "badge_code": "look-production-main-say",
+        "scans": [
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T06:32:16.242171"
+            },
+            {
+                "activity_name": "sunday_breakfast",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-18T17:23:53.225659"
+            },
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-19T10:25:30.678833"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-19T07:33:21.312499"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T23:58:18.914315"
+            }
+        ]
+    },
+    {
+        "name": "Lori Scott",
+        "email": "torresmichael@example.net",
+        "phone": "+1-794-713-9828x321",
+        "badge_code": "hundred-black-choose-most",
+        "scans": [
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T16:42:37.972373"
+            },
+            {
+                "activity_name": "opening_ceremony",
+                "activity_category": "activity",
+                "scanned_at": "2025-01-18T02:32:25.821847"
+            },
+            {
+                "activity_name": "web_development",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T10:52:50.555559"
+            },
+            {
+                "activity_name": "ai_workshop",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-17T04:28:23.216361"
+            }
+        ]
+    },
+    {
+        "name": "Brandon Liu",
+        "email": "scott42@example.com",
+        "phone": "001-323-294-1536x721",
+        "badge_code": "surface-short-artist-stop",
+        "scans": [
+            {
+                "activity_name": "midnight_snack",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T00:04:16.964786"
+            },
+            {
+                "activity_name": "giving_go_a_go",
+                "activity_category": "workshop",
+                "scanned_at": "2025-01-18T08:51:57.818898"
+            }
+        ]
+    },
+    {
+        "name": "Charles Russell",
+        "email": "kennethmeza@example.org",
+        "phone": "864-594-5683x7807",
+        "badge_code": "once-thus-blue-either",
+        "scans": [
+            {
+                "activity_name": "friday_dinner",
+                "activity_category": "meal",
+                "scanned_at": "2025-01-17T08:04:04.134747"
+            }
+        ]
+    }
+]
