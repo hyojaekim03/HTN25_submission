@@ -1,7 +1,10 @@
 # **Hack the North 2025 Backend Challenge**
 
 ## **Tech Stack**
-
+- **Language:** TypeScript with Node.js and Express.js
+- **Database:** SQLite (chosen for simplicity and lightweight implementation)
+- **Framework:** Express.js (for building RESTful API services)
+- **Package Manager:** npm
 ---
 ## **Overview**
 This document outlines the key components of the backend solution, including the database design and APIs.
@@ -9,7 +12,8 @@ This document outlines the key components of the backend solution, including the
 1. **Database**
 2. **APIs**
 3. **Bonus APIs**
-4. **Final Thoughts**
+4. **Set-up**
+5. **Final Thoughts**
 
 ---
 ## **JSON data**
@@ -18,8 +22,6 @@ For example, if a user wanted to change their phone number and name **before** t
 
 
 ## **Database**
-
-I will be using SQLite for a simple set up and implementation.
 
 ### **ERD Schema**
 <img src="https://github.com/user-attachments/assets/733c593c-63ee-499a-8c11-360b8a0727d4" alt="ERD Schema" width="400" />
@@ -104,139 +106,188 @@ Fetch all users along with their scan history.
 ]
 ```
 
-### 1. **GET `/users`**
-Fetch all users along with their scan history.
+## **2. GET /users/:userId**
 
-#### Request
+Fetch full details of a specific user by their `userId`.
+
+### **Request**
+
 - **Method:** `GET`
-- **Endpoint:** `/users`
+- **Endpoint:** `/users/:userId`
 
-#### Response
-- **Status Code:** `200 OK`
+### **Path Parameters**
+
+| Parameter | Type   | Description             |
+|-----------|--------|-------------------------|
+| `userId`  | string | The unique ID of the user |
+
+### **Response**
+
+**200 OK**
+
+```json
+{
+  "user_id": 1,
+  "name": "James Graves",
+  "email": "hollypace@example.org",
+  "phone_num": "+1-758-654-8939x00098",
+  "badge_code": "give-seven-food-trade",
+  "scans": [
+    {
+      "scanned_at": "2025-01-19T03:00:27.836055",
+      "activity_name": "giving_go_a_go",
+      "activity_category": "workshop"
+    },
+    {
+      "scanned_at": "2025-01-17T04:07:35.311375",
+      "activity_name": "opening_ceremony",
+      "activity_category": "activity"
+    }
+  ]
+}
+```
+
+## **3. PATCH /users/:userId**
+
+Update a user's data. This endpoint supports partial updates, meaning only the fields you provide in the request body will be updated. It does not allow updating scan records. Although the requirements suggested using the PUT method, I believed that PATCH would be a little more appropriate in this situation because of partial updates! 
+
+### **Request**
+
+- **Method:** `PATCH`
+- **Endpoint:** `/users/:userId`
+
+### **Path Parameters**
+
+| Parameter | Type   | Description               |
+|-----------|--------|---------------------------|
+| `userId`  | string | The unique ID of the user. |
+
+### **Request Body**
+
+The request body should contain a combination of the following fields:
+
+| Field          | Type   | Description               |
+|----------------|--------|---------------------------|
+| `phone_num`    | string | Updated phone number.      |
+| `name`         | string | Updated name of the user.  |
+
+**Example Request:**
+
+```json
+{
+  "phone_num": "111-1111-1111",
+  "name": "Test Name"
+}
+```
+
+**200 OK**
+
+```json
+{
+    "user_id": 1,
+    "name": "Test Name",
+    "email": "hollypace@example.org",
+    "phone_num": "111-1111-1111",
+    "badge_code": "give-seven-food-trade",
+    "scans": [
+        {
+            "scanned_at": "2025-01-19T03:00:27.836055",
+            "activity_name": "giving_go_a_go",
+            "activity_category": "workshop"
+        },
+        {
+            "scanned_at": "2025-01-17T04:07:35.311375",
+            "activity_name": "opening_ceremony",
+            "activity_category": "activity"
+        },
+        {
+            "scanned_at": "2025-02-10T02:25:22.095Z",
+            "activity_name": "giving_go_a_go",
+            "activity_category": "workshop"
+        }
+    ]
+}
+```
+
+
+## **4. PUT /scan/:badgeCode**
+
+Add a new scan for a user by their `badgeCode`. I chose badgeCode as the identifier here, because a new activity is added only when hackers' scans their QR Codes. This endpoint allows creating a scan record for a specific activity. If the activity doesn't exist, it will be created. The user's `updated_at` field will also be updated.
+
+### **Request**
+
+- **Method:** `PUT`
+- **Endpoint:** `/scan/:badgeCode`
+
+### **Path Parameters**
+
+| Parameter     | Type   | Description                  |
+|---------------|--------|------------------------------|
+| `badgeCode`   | string | The unique badge code of the user |
+
+### **Request Body**
+
+| Field              | Type   | Description                                |
+|--------------------|--------|--------------------------------------------|
+| `activity_name`    | string | The name of the activity                   |
+| `activity_category`| string | The category of the activity (e.g., workshop, meal) |
+
+**Example Request Body:**
+```json
+{
+  "activity_name": "giving_go_a_go",
+  "activity_category": "workshop"
+}
+```
+### **Response**
+
+**200 OK**
+
+```json
+{
+  "scanned_at": "2025-01-19T03:00:27.836055",
+  "activity_name": "giving_go_a_go",
+  "activity_category": "workshop"
+}
+```
+
+## **5. GET /scans**
+
+Retrieve a list of activities with their frequency (# of total scans throughout the event). This endpoint supports optional filtering by activity category and scan frequency.
+
+### **Request**
+
+- **Method:** `GET`
+- **Endpoint:** `/scans`
+
+### **Query Parameters**
+
+| Parameter           | Type   | Description                                     |
+|---------------------|--------|-------------------------------------------------|
+| `min_frequency`     | number | Minimum number of scans required to be included |
+| `max_frequency`     | number | Maximum number of scans allowed to be included  |
+| `activity_category` | string | Filter by activity category (e.g., workshop, meal) |
+
+**Example Request:**
+
+`GET /scans?min_frequency=5&activity_category=workshop`
+
+### **Response**
+
+**200 OK**
 
 ```json
 [
   {
-    "user_id": 1,
-    "name": "James Graves",
-    "email": "hollypace@example.org",
-    "phone_num": "+1-758-654-8939x00098",
-    "badge_code": "give-seven-food-trade",
-    "scans": [
-      {
-        "scanned_at": "2025-01-19T03:00:27.836055",
-        "activity_name": "giving_go_a_go",
-        "activity_category": "workshop"
-      },
-      {
-        "scanned_at": "2025-01-17T04:07:35.311375",
-        "activity_name": "opening_ceremony",
-        "activity_category": "activity"
-      }
-    ]
-  }
-]
-```
-
-### 1. **GET `/users`**
-Fetch all users along with their scan history.
-
-#### Request
-- **Method:** `GET`
-- **Endpoint:** `/users`
-
-#### Response
-- **Status Code:** `200 OK`
-
-```json
-[
+    "activity_name": "giving_go_a_go",
+    "activity_category": "workshop",
+    "frequency": 12
+  },
   {
-    "user_id": 1,
-    "name": "James Graves",
-    "email": "hollypace@example.org",
-    "phone_num": "+1-758-654-8939x00098",
-    "badge_code": "give-seven-food-trade",
-    "scans": [
-      {
-        "scanned_at": "2025-01-19T03:00:27.836055",
-        "activity_name": "giving_go_a_go",
-        "activity_category": "workshop"
-      },
-      {
-        "scanned_at": "2025-01-17T04:07:35.311375",
-        "activity_name": "opening_ceremony",
-        "activity_category": "activity"
-      }
-    ]
+    "activity_name": "opening_ceremony",
+    "activity_category": "activity",
+    "frequency": 8
   }
 ]
-```
 
-### 1. **GET `/users`**
-Fetch all users along with their scan history.
-
-#### Request
-- **Method:** `GET`
-- **Endpoint:** `/users`
-
-#### Response
-- **Status Code:** `200 OK`
-
-```json
-[
-  {
-    "user_id": 1,
-    "name": "James Graves",
-    "email": "hollypace@example.org",
-    "phone_num": "+1-758-654-8939x00098",
-    "badge_code": "give-seven-food-trade",
-    "scans": [
-      {
-        "scanned_at": "2025-01-19T03:00:27.836055",
-        "activity_name": "giving_go_a_go",
-        "activity_category": "workshop"
-      },
-      {
-        "scanned_at": "2025-01-17T04:07:35.311375",
-        "activity_name": "opening_ceremony",
-        "activity_category": "activity"
-      }
-    ]
-  }
-]
-```
-
-### 1. **GET `/users`**
-Fetch all users along with their scan history.
-
-#### Request
-- **Method:** `GET`
-- **Endpoint:** `/users`
-
-#### Response
-- **Status Code:** `200 OK`
-
-```json
-[
-  {
-    "user_id": 1,
-    "name": "James Graves",
-    "email": "hollypace@example.org",
-    "phone_num": "+1-758-654-8939x00098",
-    "badge_code": "give-seven-food-trade",
-    "scans": [
-      {
-        "scanned_at": "2025-01-19T03:00:27.836055",
-        "activity_name": "giving_go_a_go",
-        "activity_category": "workshop"
-      },
-      {
-        "scanned_at": "2025-01-17T04:07:35.311375",
-        "activity_name": "opening_ceremony",
-        "activity_category": "activity"
-      }
-    ]
-  }
-]
-```
 
