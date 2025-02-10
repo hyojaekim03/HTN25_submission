@@ -17,7 +17,7 @@ This document outlines the key components of the backend solution, including the
 
 ---
 ## **JSON data**
-Upon reviewing the JSON data, I noticed that there were a few badge codes which were empty strings. I am assuming that this happens because multiple people who signed up didn't check-in (they didn't show up). This might interfere with the definition of badge codes being "unique" and therefore we must treat this accordingly. I will be allowing NULL values for this so that existing entries are all unique. This also made it more difficult to fetch data by badge codes for a few reasons. 
+Upon reviewing the JSON data, I noticed that there were a few badge codes which were empty strings. I am assuming that this happens because multiple people who signed up didn't check-in (they didn't show up). This might interfere with the definition of badge codes being "unique" and therefore we must treat this accordingly. I will be allowing NULL values for this so that all existing entries are unique. This also made it more difficult to fetch data by badge codes for a few reasons. 
 For example, if a user wanted to change their phone number and name **before** the event started, we would not be able to use their badge codes  as identifiers. 
 
 
