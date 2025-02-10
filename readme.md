@@ -150,7 +150,7 @@ Fetch full details of a specific user by their `userId`.
 
 ### **3. PATCH /users/:userId**
 
-Update a user's data. This endpoint supports partial updates, meaning only the fields you provide in the request body will be updated. It does not allow updating scan records. Although the requirements suggested using the PUT method, I believed that PATCH would be a little more appropriate in this situation because of partial updates! 
+Update a user's data. This endpoint supports partial updates, meaning only the fields you provide in the request body will be updated. It does not allow updating scan records. Although the requirements suggested using the PUT method, I believed that PATCH would be a little more appropriate in this situation because of partial updates! It returns full user data (assuming that full user data doesn't include the updated_at field). 
 
 #### **Request**
 
