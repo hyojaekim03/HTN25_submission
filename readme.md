@@ -72,14 +72,14 @@ Local Development: `http://localhost:3000`
 
 ---
 
-#### 1. **GET `/users`**
+### 1. **GET `/users`**
 Fetch all users along with their scan history.
 
-##### Request
+#### Request
 - **Method:** `GET`
 - **Endpoint:** `/users`
 
-##### Response
+#### Response
 - **Status Code:** `200 OK`
 
 ```json
