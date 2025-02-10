@@ -62,24 +62,24 @@ Given the JSON data, I decided to split the data across three tables:
 
 ---
 
-## Base URL
+### Base URL
 
 Local Development: `http://localhost:3000`
 
 ---
 
-## Endpoints
+### Endpoints
 
 ---
 
-### 1. **GET `/users`**
+#### 1. **GET `/users`**
 Fetch all users along with their scan history.
 
-#### Request
+##### Request
 - **Method:** `GET`
 - **Endpoint:** `/users`
 
-#### Response
+##### Response
 - **Status Code:** `200 OK`
 
 ```json
@@ -106,22 +106,22 @@ Fetch all users along with their scan history.
 ]
 ```
 
-## **2. GET /users/:userId**
+### **2. GET /users/:userId**
 
 Fetch full details of a specific user by their `userId`.
 
-### **Request**
+#### **Request**
 
 - **Method:** `GET`
 - **Endpoint:** `/users/:userId`
 
-### **Path Parameters**
+#### **Path Parameters**
 
 | Parameter | Type   | Description             |
 |-----------|--------|-------------------------|
 | `userId`  | string | The unique ID of the user |
 
-### **Response**
+#### **Response**
 
 **200 OK**
 
@@ -147,22 +147,22 @@ Fetch full details of a specific user by their `userId`.
 }
 ```
 
-## **3. PATCH /users/:userId**
+### **3. PATCH /users/:userId**
 
 Update a user's data. This endpoint supports partial updates, meaning only the fields you provide in the request body will be updated. It does not allow updating scan records. Although the requirements suggested using the PUT method, I believed that PATCH would be a little more appropriate in this situation because of partial updates! 
 
-### **Request**
+#### **Request**
 
 - **Method:** `PATCH`
 - **Endpoint:** `/users/:userId`
 
-### **Path Parameters**
+#### **Path Parameters**
 
 | Parameter | Type   | Description               |
 |-----------|--------|---------------------------|
 | `userId`  | string | The unique ID of the user. |
 
-### **Request Body**
+#### **Request Body**
 
 The request body should contain a combination of the following fields:
 
@@ -179,6 +179,7 @@ The request body should contain a combination of the following fields:
   "name": "Test Name"
 }
 ```
+#### **Response**
 
 **200 OK**
 
@@ -210,22 +211,22 @@ The request body should contain a combination of the following fields:
 ```
 
 
-## **4. PUT /scan/:badgeCode**
+### **4. PUT /scan/:badgeCode**
 
 Add a new scan for a user by their `badgeCode`. I chose badgeCode as the identifier here, because a new activity is added only when hackers' scans their QR Codes. This endpoint allows creating a scan record for a specific activity. If the activity doesn't exist, it will be created. The user's `updated_at` field will also be updated.
 
-### **Request**
+#### **Request**
 
 - **Method:** `PUT`
 - **Endpoint:** `/scan/:badgeCode`
 
-### **Path Parameters**
+#### **Path Parameters**
 
 | Parameter     | Type   | Description                  |
 |---------------|--------|------------------------------|
 | `badgeCode`   | string | The unique badge code of the user |
 
-### **Request Body**
+#### **Request Body**
 
 | Field              | Type   | Description                                |
 |--------------------|--------|--------------------------------------------|
@@ -239,7 +240,7 @@ Add a new scan for a user by their `badgeCode`. I chose badgeCode as the identif
   "activity_category": "workshop"
 }
 ```
-### **Response**
+#### **Response**
 
 **200 OK**
 
@@ -251,16 +252,16 @@ Add a new scan for a user by their `badgeCode`. I chose badgeCode as the identif
 }
 ```
 
-## **5. GET /scans**
+### **5. GET /scans**
 
 Retrieve a list of activities with their frequency (# of total scans throughout the event). This endpoint supports optional filtering by activity category and scan frequency.
 
-### **Request**
+#### **Request**
 
 - **Method:** `GET`
 - **Endpoint:** `/scans`
 
-### **Query Parameters**
+#### **Query Parameters**
 
 | Parameter           | Type   | Description                                     |
 |---------------------|--------|-------------------------------------------------|
@@ -272,7 +273,7 @@ Retrieve a list of activities with their frequency (# of total scans throughout 
 
 `GET /scans?min_frequency=5&activity_category=workshop`
 
-### **Response**
+#### **Response**
 
 **200 OK**
 
