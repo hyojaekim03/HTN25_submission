@@ -39,17 +39,8 @@ export const getScanDataQuery = (filters: { min_frequency?: number; max_frequenc
 
   const conditions: string[] = [];
 
-  // add conditions based on provided filters
   if (filters.category) {
     conditions.push(`${TABLE_ACTIVITIES}.activity_category = ?`);
-  }
-
-  if (filters.min_frequency !== undefined) {
-    conditions.push(`COUNT(${TABLE_SCANS}.scan_id) >= ?`);
-  }
-
-  if (filters.max_frequency !== undefined) {
-    conditions.push(`COUNT(${TABLE_SCANS}.scan_id) <= ?`);
   }
 
   if (conditions.length > 0) {
@@ -57,6 +48,19 @@ export const getScanDataQuery = (filters: { min_frequency?: number; max_frequenc
   }
 
   query += ` GROUP BY ${TABLE_ACTIVITIES}.activity_name, ${TABLE_ACTIVITIES}.activity_category`;
+
+  const havingConditions: string[] = [];
+  if (filters.min_frequency !== undefined) {
+    havingConditions.push(`frequency >= ?`);
+  }
+  if (filters.max_frequency !== undefined) {
+    havingConditions.push(`frequency <= ?`);
+  }
+
+  //NOTE: WHERE -> HAVING fix. It didn't like using COUNT AS with WHERE because of aggregated values
+  if (havingConditions.length > 0) {
+    query += ` HAVING ` + havingConditions.join(' AND ');
+  }
 
   return query;
 };
