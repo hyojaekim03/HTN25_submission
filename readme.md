@@ -214,7 +214,7 @@ The request body should contain a combination of the following fields:
 
 ### **4. PUT /scan/:badgeCode**
 
-Add a new scan for a user by their `badgeCode`. I chose badgeCode as the identifier here, because a new activity is added only when hackers' scans their QR Codes. This endpoint allows creating a scan record for a specific activity. If the activity doesn't exist, it will be created. The user's `updated_at` field will also be updated.
+Add a new scan for a user by their `badgeCode`. I chose badgeCode as the identifier here, because a new activity is added only when hackers scans their QR Codes. This endpoint allows creating a scan record for a specific activity. If the activity doesn't exist, it will be created. The user's `updated_at` field will also be updated.
 
 #### **Request**
 
