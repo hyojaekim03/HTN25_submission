@@ -350,6 +350,11 @@ npm run dev
 ```
 It should now be available at http://localhost:3000
 
-7. Use Postman or other tool to call API endpoints. Refer to the [API documentation](https://github.com/hyojaekim03/HTN25_submission?tab=readme-ov-file#apis) for more details. 
+7. Use Postman or other tool to call API endpoints. Refer to the [API documentation](https://github.com/hyojaekim03/HTN25_submission?tab=readme-ov-file#apis) for more details.
+
+8. To reset the database, run
+```bash
+npx ts-node src/db/reset.db.ts
+```
 
 
