@@ -12,5 +12,5 @@ services:
       DEBUG: nodejs-docker-express:*
     ports:
       - "3000:3000"
-    command: ["sh", "-c", "npx ts-node src/db/initDb.ts && npm start"]
+    command: ["sh", "-c", "npx ts-node src/db/init.db.ts && npm start"]
 
