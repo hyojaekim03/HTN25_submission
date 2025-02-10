@@ -173,7 +173,7 @@ The request body should contain a combination of the following fields:
 | `name`         | string | Updated name of the user.  |
 
 **Example Request:**
-
+Notes from assumption: If a null string is passed through the body, the field will not be updated. 
 ```json
 {
   "phone_num": "111-1111-1111",
