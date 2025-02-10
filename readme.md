@@ -14,7 +14,6 @@ This document outlines the key components of the backend solution, including the
 3. **APIs**
 4. **Bonus APIs**
 5. **Set-up**
-6. **Final Thoughts**
 
 ---
 ## **JSON data**
