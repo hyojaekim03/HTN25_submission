@@ -305,9 +305,6 @@ Currently Implementing
 ## **Set-up**
 
 ---
-
-### Set up locally
-
 Setup Instructions
 1. Prerequisites
 Make sure you have the following installed on your machine:
