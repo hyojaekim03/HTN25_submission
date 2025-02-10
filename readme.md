@@ -102,6 +102,10 @@ Fetch all users along with their scan history.
         "activity_category": "activity"
       }
     ]
+  },
+  {
+    "user_id": 2,
+    ....
   }
 ]
 ```
