@@ -340,8 +340,8 @@ npx ts-node src/scripts/insertData.scripts.ts
 ```bash
 npm run dev
 ```
-It should now be available to call at http://localhost:3000
+It should now be available at http://localhost:3000
 
-7. Use Postman or other tool to call API endpoint
+7. Use Postman or other tool to call API endpoints. Refer to the [API documentation](https://github.com/hyojaekim03/HTN25_submission?tab=readme-ov-file#apis) for more details. 
 
 
