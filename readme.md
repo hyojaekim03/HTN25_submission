@@ -318,7 +318,7 @@ git clone <repository-url>
 cd <repository-name>
 ```
 
-3. Install Dependencies
+3. Install Dependencies (Skip to step 4 if you are using docker)
 ```bash
 npm install
 ```
@@ -329,8 +329,13 @@ npm install
 npx ts-node src/db/init.db.ts
 ```
 
- Option 2: Automatically (via Docker) (debugging)
+ Option 2: Automatically (via Docker) 
 When running the application in Docker, the database initialization will be handled automatically.
+Open up docker desktop. In the project directory where the dockerfile is, run 
+```bash
+docker-compose up --build
+```
+It should now be available at http://localhost:3000. You can skip to step 7 if you used docker.
 
 5. Populate the Database
 Run this command
