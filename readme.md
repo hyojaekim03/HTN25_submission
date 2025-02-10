@@ -324,12 +324,12 @@ npm install
 ```
 4. Initialize the Database
 
-Option 1: Run Manually
+ Option 1: Run Manually
 ```bash
 npx ts-node src/db/init.db.ts
 ```
 
-Option 2: Automatically (via Docker) (debugging)
+ Option 2: Automatically (via Docker) (debugging)
 When running the application in Docker, the database initialization will be handled automatically.
 
 5. Populate the Database
