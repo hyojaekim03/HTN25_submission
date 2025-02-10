@@ -58,6 +58,10 @@ Given the JSON data, I decided to split the data across three tables:
 - **Performance:**  
   Optimized for faster joins and lookups by indexing primary and foreign keys. Integer comparisons are more efficient than string-based lookups in a single denormalized table.
 
+### **DB Architecture**
+
+- I used Singleton architecture for my database instance to avoid unnessecary connections if it were to scale. This way, the application uses less resources. 
+
 ## **APIs**
 
 ---
