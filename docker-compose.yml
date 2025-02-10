@@ -6,11 +6,11 @@ services:
       context: .
     volumes:
       - .:/src/app
-      - /src/app/node_modules
+      # - /src/app/node_modules
     environment:
       NODE_ENV: development
       DEBUG: nodejs-docker-express:*
     ports:
       - "3000:3000"
-    command: ["sh", "-c", "npx ts-node src/db/init.db.ts && npm start"]
+    command: ["sh", "-c", "ts-node src/db/init.db.ts && ts-node src/scripts/insertData.scripts.ts && npm start"]
 
