@@ -2,9 +2,9 @@ import sqlite3 from 'sqlite3';
 import { open } from 'sqlite';
 import * as fs from 'fs/promises';
 
-// Load the JSON data from a file (e.g., `data.json`)
+// load JSON data
 const loadData = async (): Promise<any[]> => {
-  const data = await fs.readFile('htn_data.json', 'utf-8');
+  const data = await fs.readFile('src/data/htn_data.json', 'utf-8');
   return JSON.parse(data);
 };
 
@@ -18,16 +18,19 @@ const insertData = async () => {
     const data = await loadData();
 
     for (const user of data) {
-      // Insert user
-      const userId = await db.run(
-        `INSERT INTO users (email, phone_num, badge_code) VALUES (?, ?, ?)`,
+      // insert user and handle missing badge_code by inserting null
+      const result = await db.run(
+        `INSERT INTO users (name, email, phone_num, badge_code) VALUES (?, ?, ?, ?)`,
+        user.name,
         user.email,
         user.phone,
-        user.badge_code
+        user.badge_code || null  // handle empty or missing badge codes
       );
 
+      const userId = result.lastID;
+
       for (const scan of user.scans) {
-        // Insert activity (ignore duplicates)
+        // check if the activity already exists
         const activity = await db.get(
           `SELECT activity_id FROM activities WHERE activity_name = ?`,
           scan.activity_name
@@ -37,18 +40,18 @@ const insertData = async () => {
         if (activity) {
           activityId = activity.activity_id;
         } else {
-          const result = await db.run(
+          const activityResult = await db.run(
             `INSERT INTO activities (activity_name, activity_category) VALUES (?, ?)`,
             scan.activity_name,
             scan.activity_category
           );
-          activityId = result.lastID;
+          activityId = activityResult.lastID;
         }
 
-        // Insert scan record
+        // insert the scan record
         await db.run(
           `INSERT INTO scans (user_id, activity_id, scanned_at) VALUES (?, ?, ?)`,
-          userId.lastID,
+          userId,
           activityId,
           scan.scanned_at
         );

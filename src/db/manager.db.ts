@@ -22,19 +22,25 @@ class DbManager {
     });
   };
 
-  query = async (query: string, params: any[] = []) => {
-    const trimmedQuery = query.trim().toUpperCase();
-
-    if (trimmedQuery.startsWith('SELECT')) {
-      return await this.db.all(query, params);
-    } else {
-      const result = await this.db.run(query, params);
-      return {
-        lastInsertId: result.lastID,
-        changes: result.changes,
-      };
+  async selectQuery<T = any>(query: string, params: any[] = []): Promise<T[]> {
+    if (!this.db) {
+      throw new Error('Database not initialized.');
     }
-  };
+  
+    return await this.db.all(query, params);
+  }
+  
+  async executeQuery(query: string, params: any[] = []): Promise<{ lastInsertId: number; changes: number }> {
+    if (!this.db) {
+      throw new Error('Database not initialized.');
+    }
+  
+    const result = await this.db.run(query, params);
+    return {
+      lastInsertId: result.lastID!,
+      changes: result.changes!,
+    };
+  }
 
   beginTransaction = async () => {
     await this.db.run('BEGIN TRANSACTION');
