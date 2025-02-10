@@ -309,9 +309,9 @@ Setup Instructions
 1. Prerequisites
 Make sure you have the following installed on your machine:
 
-- Node.js (version 18 or higher recommended)
-- Docker (for production and testing in containers)
-- npm or yarn
+   - Node.js (version 18 or higher recommended)
+   - Docker (for production)
+   - npm or yarn
 
 2. Clone the Repository
 ``` bash
@@ -344,3 +344,5 @@ npm run dev
 It should now be available to call at http://localhost:3000
 
 7. Use Postman or other tool to call API endpoint
+
+
