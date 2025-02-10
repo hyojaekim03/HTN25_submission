@@ -25,7 +25,7 @@ For example, if a user wanted to change their phone number and name **before** t
 ## **Database**
 
 ### **ERD Schema**
-<img src="https://github.com/user-attachments/assets/733c593c-63ee-499a-8c11-360b8a0727d4" alt="ERD Schema" width="400" />
+<img width="511" alt="Screenshot 2025-02-09 at 10 52 34 PM" src="https://github.com/user-attachments/assets/2601f889-324d-4e6b-9a15-4213dd0ed108" />
 
 
 ---
