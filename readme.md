@@ -296,3 +296,51 @@ Retrieve a list of activities with their frequency (# of total scans throughout 
 ```
 
 ## **Bonus APIs**
+
+Currently Implementing
+
+## **Set-up**
+
+---
+
+### Set up locally
+
+Setup Instructions
+1. Prerequisites
+Make sure you have the following installed on your machine:
+
+- Node.js (version 18 or higher recommended)
+- Docker (for production and testing in containers)
+- npm or yarn
+
+2. Clone the Repository
+``` bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+3. Install Dependencies
+```bash
+npm install
+```
+4. Initialize the Database
+Option 1: Run Manually
+```bash
+npx ts-node src/db/init.db.ts
+```
+Option 2: Automatically (via Docker)
+When running the application in Docker, the database initialization will be handled automatically.
+
+5. Populate the Database
+Run this command
+```bash
+npx ts-node src/scripts/insertData.scripts.ts
+```
+
+6. Run the Application Locally
+```bash
+npm run dev
+```
+It should now be available to call at http://localhost:3000
+
+7. Use Postman or other tool to call API endpoint
