@@ -9,11 +9,12 @@
 ## **Overview**
 This document outlines the key components of the backend solution, including the database design and APIs.
 
-1. **Database**
-2. **APIs**
-3. **Bonus APIs**
-4. **Set-up**
-5. **Final Thoughts**
+1. **JSON data**
+2. **Database**
+3. **APIs**
+4. **Bonus APIs**
+5. **Set-up**
+6. **Final Thoughts**
 
 ---
 ## **JSON data**
@@ -290,5 +291,6 @@ Retrieve a list of activities with their frequency (# of total scans throughout 
     "frequency": 8
   }
 ]
+```
 
-
+## **Bonus APIs**
